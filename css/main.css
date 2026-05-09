@@ -2176,7 +2176,7 @@ input::-moz-focus-inner {
     -ms-flex-flow     : column nowrap;
     flex-flow         : column nowrap;
     width             : 300px;
-    background-color  : #151515;
+    background-color  : #6B7452;
     padding-top       : 6.4rem;
     padding-right     : 3.2rem;
     padding-left      : 4.4rem;
@@ -2547,7 +2547,7 @@ input::-moz-focus-inner {
 
     .header__nav-wrap {
         z-index                 : 99;
-        background              : #151515;
+        background              : #6B7452;
         opacity                 : 0;
         visibility              : hidden;
         position                : fixed;
