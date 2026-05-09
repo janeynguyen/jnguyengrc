@@ -2490,6 +2490,11 @@ input::-moz-focus-inner {
     background-image : url(../images/icons/social/icon-rss.svg);
 }
 
+/* custom social icons */
+.header__social i {
+    color: #F6F1E3;
+    font-size: 20px;
+}
 /* ------------------------------------------------------------------- 
  * responsive:
  * header
@@ -2523,7 +2528,7 @@ input::-moz-focus-inner {
 
     .header__top {
         z-index    : 100;
-        background : #111111;
+        background : #6B7452;
         width      : 100%;
         height     : 78px;
         position   : absolute;
@@ -2541,8 +2546,8 @@ input::-moz-focus-inner {
     }
 
     .header__logo img {
-        width  : 120px;
-        height : 29px;
+        width  : 180px;
+        height : auto;
     }
 
     .header__nav-wrap {
