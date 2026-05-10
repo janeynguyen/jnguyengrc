@@ -270,7 +270,7 @@ blockquote {
 }
 
 blockquote p {
-    font-family : "Lora", serif;
+    font-family : "Archivo", sans-serif;
     font-weight : 400;
     padding     : 0;
     font-size   : 2.4rem;
@@ -309,7 +309,7 @@ abbr {
     font-variant   : small-caps;
     text-transform : lowercase;
     letter-spacing : .05rem;
-    color          : #7e7e7e;
+    color          : #000000;
 }
 
 var,
@@ -956,9 +956,9 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background   : #000000;
-    border-color : #000000;
-    color        : #ffffff;
+    background   : #2F312B;
+    border-color : #2F312B;
+    color        : #F4EEDD;
 }
 
 .btn.btn--primary:hover,
@@ -971,8 +971,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background   : #33998a;
-    border-color : #33998a;
+    background   : #6B7452;
+    border-color : #6B7452;
 }
 
 /* button modifiers
@@ -999,14 +999,14 @@ button.btn--large {
 button.btn--stroke {
     background : transparent !important;
     border     : 0.2rem solid #000000;
-    color      : #000000;
+    color      : #2F312B;
 }
 
 .btn--stroke:hover,
 button.btn--stroke:hover {
     background : #000000 !important;
     border     : 0.2rem solid #000000;
-    color      : #ffffff;
+    color      : #F4EEDD;
 }
 
 .btn--pill,
@@ -1444,19 +1444,19 @@ input::-moz-focus-inner {
     padding     : .2rem 1.2rem;
     height      : 3.6rem;
     margin      : .2rem .2rem;
-    color       : #000000;
+    color       : #2F312B;
     transition  : all, .3s, ease-in-out;
 }
 
 .pgn__num:hover {
     background : #d3d3d3;
-    color      : #000000;
+    color      : #2F312B;
 }
 
 .pgn .current,
 .pgn .current:hover {
-    background-color : #000000;
-    color            : white;
+    background-color : #2F312B;
+    color            : #F4EEDD;
 }
 
 .pgn .inactive,
@@ -1489,7 +1489,7 @@ input::-moz-focus-inner {
 
 .pgn__prev:hover,
 .pgn__next:hover {
-    background-color : #d3d3d3;
+    background-color : #7A8460;
 }
 
 .pgn__prev {
@@ -2298,7 +2298,7 @@ input::-moz-focus-inner {
 }
 
 .header__nav li.current > a {
-    color : #ffffff;
+    color : #f4eedd;
 }
 
 .header__nav li ul {
@@ -2336,7 +2336,7 @@ input::-moz-focus-inner {
 
 .header__menu-toggle:hover,
 .header__menu-toggle:focus {
-    color : #ffffff;
+    color : #f4eedd;
 }
 
 .header__menu-toggle span {
