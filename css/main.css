@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6,
     font-family            : "Archivo", sans-serif;
     font-weight            : 500;
     font-style             : normal;
-    color                  : #000000;
+    color                  : #2F312B;
     font-variant-ligatures : common-ligatures;
     text-rendering         : optimizeLegibility;
 }
@@ -210,7 +210,7 @@ p.lead {
     font-size     : 2.4rem;
     line-height   : 1.833;
     margin-bottom : 3.6rem;
-    color         : #000000;
+    color         : #2F312B;
 }
 
 @media screen and (max-width: 1200px) {
@@ -275,7 +275,7 @@ blockquote p {
     padding     : 0;
     font-size   : 2.4rem;
     line-height : 1.833;
-    color       : #000000;
+    color       : #2F312B;
 }
 
 @media screen and (max-width: 500px) {
@@ -309,7 +309,7 @@ abbr {
     font-variant   : small-caps;
     text-transform : lowercase;
     letter-spacing : .05rem;
-    color          : #000000;
+    color          : #2F312B;
 }
 
 var,
@@ -333,7 +333,7 @@ code {
     white-space   : nowrap;
     background    : #efefef;
     border        : 1px solid #d3d3d3;
-    color         : #000000;
+    color         : #2F312B;
     border-radius : 3px;
 }
 
@@ -363,7 +363,7 @@ dfn[title] {
 
 mark {
     background : #fff099;
-    color      : #000000;
+    color      : #2F312B;
 }
 
 hr {
@@ -485,7 +485,7 @@ td {
 }
 
 th {
-    color       : #000000;
+    color       : #2F312B;
     font-family : "Archivo", sans-serif;
     font-weight : 700;
 }
@@ -571,7 +571,7 @@ form,
 
 #loader>div {
     content       : "";
-    background    : #000000;
+    background    : #2F312B;
     width         : 6px;
     height        : 6px;
     position      : absolute;
@@ -782,8 +782,8 @@ select {
 }
 
 .ss-custom-select::after {
-    border-bottom            : 2px solid #000000;
-    border-right             : 2px solid #000000;
+    border-bottom            : 2px solid #2F312B;
+    border-right             : 2px solid #2F312B;
     content                  : '';
     display                  : block;
     height                   : 8px;
@@ -813,8 +813,8 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-    color         : #000000;
-    border-bottom : 1px solid #000000;
+    color         : #2F312B;
+    border-bottom : 1px solid #2F312B;
 }
 
 label,
@@ -824,7 +824,7 @@ legend {
     font-size     : 1.4rem;
     margin-bottom : .8rem;
     line-height   : 1.714;
-    color         : #000000;
+    color         : #2F312B;
     display       : block;
 }
 
@@ -921,7 +921,7 @@ input[type="button"] {
     line-height             : 5.6rem;
     padding                 : 0 3.2rem;
     margin                  : 0 .4rem 1.6rem 0;
-    color                   : #000000;
+    color                   : #2F312B;
     text-decoration         : none;
     text-align              : center;
     white-space             : nowrap;
