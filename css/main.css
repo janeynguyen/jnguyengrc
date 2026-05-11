@@ -1614,6 +1614,15 @@ input::-moz-focus-inner {
     margin-bottom  : 0 !important;
 }
 
+@media screen and (min-width: 1000px) {
+
+    .media-wrap {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
 /* ------------------------------------------------------------------- 
  * ## listing header
  * ------------------------------------------------------------------- */
