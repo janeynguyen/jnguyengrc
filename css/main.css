@@ -2470,10 +2470,6 @@ input::-moz-focus-inner {
     background-image: url(../images/icons/social/icon-github.svg);
 }
 
-.header__social .ss-email a::after {
-    background-image: url(../images/icons/social/icon-email.svg);
-}
-
 /* custom social icons */
 .header__social i {
     color: #F6F1E3;
