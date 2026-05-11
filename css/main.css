@@ -2887,7 +2887,7 @@ body.search-is-visible {
     }
 
     .search-trigger svg path {
-        fill : white;
+        fill : #F4EEDD;
     }
 
     .search-trigger span,
