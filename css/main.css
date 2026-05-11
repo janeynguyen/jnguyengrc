@@ -1449,7 +1449,7 @@ input::-moz-focus-inner {
 }
 
 .pgn__num:hover {
-    background : #d3d3d3;
+    background : #7A8460;
     color      : #2F312B;
 }
 
@@ -2684,7 +2684,7 @@ input::-moz-focus-inner {
 }
 
 .search-form label {
-    color : #000000;
+    color : #2F312B;
 }
 
 .search-form::after {
@@ -2699,7 +2699,7 @@ input::-moz-focus-inner {
 
 .search-form input[type="search"] {
     background-color : transparent;
-    color            : #000000;
+    color            : #2F312B;
     height           : auto;
     width            : 100%;
     font-family      : "Archivo", sans-serif;
@@ -2724,38 +2724,38 @@ input::-moz-focus-inner {
 
 .search-form input[type="search"]::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
-    color : #000000;
+    color : #2F312B;
 }
 
 .search-form input[type="search"]:-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
-    color   : #000000;
+    color   : #2F312B;
     opacity : 1;
 }
 
 .search-form input[type="search"]::-moz-placeholder {
     /* Mozilla Firefox 19+ */
-    color   : #000000;
+    color   : #2F312B;
     opacity : 1;
 }
 
 .search-form input[type="search"]:-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    color : #000000;
+    color : #2F312B;
 }
 
 .search-form input[type="search"]::-ms-input-placeholder {
     /* Microsoft Edge */
-    color : #000000;
+    color : #2F312B;
 }
 
 .search-form input[type="search"]::placeholder {
     /* Most modern browsers support this now. */
-    color : #000000;
+    color : #2F312B;
 }
 
 .search-form input[type="search"].placeholder {
-    color : #000000 !important;
+    color : #2F312B !important;
 }
 
 .search-form input[type="search"]:focus {
@@ -2800,7 +2800,7 @@ body.search-is-visible {
     height           : 20px;
     top              : 12px;
     left             : 22px;
-    background-color : #000000;
+    background-color : #2F312B;
 }
 
 .search-close::before {
@@ -2828,7 +2828,7 @@ body.search-is-visible {
     line-height         : 1.6rem;
     text-transform      : uppercase;
     letter-spacing      : 5px;
-    color               : #000000;
+    color               : #2F312B;
     transition-property : color;
     position            : fixed;
     right               : 40px;
@@ -2837,7 +2837,7 @@ body.search-is-visible {
 
 .search-trigger:focus,
 .search-trigger:hover {
-    color : #33998a;
+    color : #7A8460;
 }
 
 .search-trigger svg {
@@ -3024,10 +3024,10 @@ body.search-is-visible {
     line-height         : 6rem;
     text-align          : center;
     text-transform      : uppercase;
-    color               : rgba(255, 255, 255, 0.5);
+    color               : #F4EEDD;
     transition          : all .3s;
     background-image    : url(../images/icons/icon-arrow-up.svg);
-    background-color    : #000000;
+    background-color    : #2F312B;
     background-repeat   : no-repeat;
     background-position : center center;
     background-size     : 7px 14px;
