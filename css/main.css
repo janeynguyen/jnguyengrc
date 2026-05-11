@@ -81,7 +81,7 @@ body {
     font-style  : normal;
     font-weight : normal;
     line-height : 1.789;
-    color       : #000000;
+    color       : #2F312B;
     margin      : 0;
     padding     : 0;
 }
@@ -91,7 +91,7 @@ body.nav-wrap-is-visible {
 }
 
 body.ss-bg-white {
-    background : #ffffff;
+    background : #F4EEDD;
 }
 
 /* ------------------------------------------------------------------- 
@@ -105,7 +105,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color : #da5260;
+    color : #7A8460;
 }
 
 a:hover,
