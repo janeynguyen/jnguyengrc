@@ -3045,6 +3045,7 @@ body.search-is-visible {
     background-repeat   : no-repeat;
     background-position : center center;
     background-size     : 7px 14px;
+    border-radius : 12px;
 }
 
 .go-top.link-is-visible {
