@@ -2250,7 +2250,7 @@ input::-moz-focus-inner {
     padding     : 0;
     font-family : "Archivo", sans-serif;
     font-weight : 425;
-    font-size   : 20px;
+    font-size   : 18px;
 }
 
 .header__nav li {
@@ -2298,7 +2298,8 @@ input::-moz-focus-inner {
 
 .header__nav li:hover > a,
 .header__nav li:focus > a {
-    color : #ffffff;
+    color : #f4eedd;
+    opacity: 0.9;
 }
 
 .header__nav li:hover li,
@@ -2308,6 +2309,8 @@ input::-moz-focus-inner {
 
 .header__nav li.current > a {
     color : #f4eedd;
+    border-bottom: 1px solid #f4eedd;
+    padding-bottom: 2px;
 }
 
 .header__nav li ul {
