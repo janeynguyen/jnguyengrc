@@ -1446,6 +1446,7 @@ input::-moz-focus-inner {
     margin      : .2rem .2rem;
     color       : #2F312B;
     transition  : all, .3s, ease-in-out;
+    border-radius : 12px;
 }
 
 .pgn__num:hover {
@@ -1485,6 +1486,7 @@ input::-moz-focus-inner {
     top                 : 50%;
     -webkit-transform   : translate(0, -50%);
     transform           : translate(0, -50%);
+    border-radius       : 12px;
 }
 
 .pgn__prev:hover,
@@ -2198,9 +2200,10 @@ input::-moz-focus-inner {
     overflow-x        : hidden;
     vertical-align    : top;
     position          : fixed;
-    bottom            : 0;
-    top               : 0;
-    left              : 0;
+    top               : 2rem;
+    bottom            : 2rem;
+    left              : 2rem;
+    border-radius     : 18px;
 }
 
 /* -------------------------------------------------------------------
