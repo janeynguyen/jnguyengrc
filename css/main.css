@@ -2309,8 +2309,10 @@ input::-moz-focus-inner {
 
 .header__nav li.current > a {
     color : #f4eedd;
-    border-bottom: 1px solid #f4eedd;
-    padding-bottom: 2px;
+    text-decoration: underline;
+    text-decoration-color: #f4eedd;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
 }
 
 .header__nav li ul {
