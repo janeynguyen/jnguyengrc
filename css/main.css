@@ -1721,11 +1721,12 @@ input::-moz-focus-inner {
 .masonry .entry__thumb {
     position : relative;
     overflow : hidden;
+    border-radius: 12px 12px 0 0;
 }
 
 .masonry .entry__thumb-link img {
     vertical-align : bottom;
-    transition     : all .3s;
+    transition      : all .3s;
 }
 
 .masonry .entry__thumb-link::before {
@@ -1787,6 +1788,8 @@ input::-moz-focus-inner {
 .masonry .entry__text {
     padding          : 3.2rem 2.8rem 4rem;
     background-color : #ffffff;
+    border-radius    : 0 0 12px 12px;
+    overflow         : hidden;
 }
 
 .masonry .entry__text p {
