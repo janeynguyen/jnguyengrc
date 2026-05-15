@@ -1714,6 +1714,8 @@ input::-moz-focus-inner {
 .masonry .entry {
     margin-bottom : 40px;
     color         : rgba(0, 0, 0, 0.5);
+    border-radius : 12px;
+    overflow      : hidden;
 }
 
 .masonry .entry__thumb {
