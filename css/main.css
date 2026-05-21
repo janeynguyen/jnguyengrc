@@ -3616,3 +3616,7 @@ body.search-is-visible {
     opacity    : 1;
     visibility : visible;
 }
+
+.entry__content h3 {
+    font-weight: 700;
+}
