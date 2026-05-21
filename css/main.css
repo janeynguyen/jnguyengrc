@@ -3642,3 +3642,17 @@ body.search-is-visible {
         width: 100%;
     }
 }
+
+/* Empty category page message */
+.empty-page-message {
+    max-width: 700px;
+    margin: 8rem auto 12rem;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.empty-page-message p {
+    font-size: 2rem;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.55);
+}
