@@ -3000,6 +3000,11 @@ body.search-is-visible {
 /* -------------------------------------------------------------------
  * ## copyright
  * ------------------------------------------------------------------- */
+.footer__copyright {
+    text-align: center;
+    white-space: nowrap;
+}
+    
 .footer__copyright span {
     display : inline-block;
 }
