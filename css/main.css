@@ -1794,6 +1794,10 @@ input::-moz-focus-inner {
     overflow         : hidden;
 }
 
+.masonry .entry:not(:has(.entry__thumb)) .entry__text {
+    border-radius: 12px;
+}
+
 .masonry .entry__text p {
     margin-bottom : 0;
 }
