@@ -137,7 +137,7 @@
     * ---------------------------------------------------- */ 
     var ssMasonryFolio = function () {
         
-        var containerBricks = $('.masonry');
+        var containerBricks = $('.masonry').not('.home-masonry');
 
         containerBricks.masonry({
             itemSelector: '.masonry__brick',

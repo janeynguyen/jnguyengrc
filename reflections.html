@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/modern.css?v=20260620">
 
     <!-- script
     ================================================== -->
@@ -61,9 +62,7 @@
             <nav class="header__nav-wrap">
 
                 <ul class="header__nav">
-                    <li><a href="index.html" title="">Home</a></li>
                     <li><a href="projects.html">Projects</a></li>
-                    <li><a href="conferences.html">Conferences & Events</a></li>
                     <li><a href="certificates.html">Certificates</a></li>
                     <li class="current"><a href="reflections.html">Reflections</a></li>
                     <li><a href="about-me.html" title="">About Me</a></li>
@@ -124,13 +123,51 @@
         <!-- site content
         ================================================== -->
         <div class="s-content">
-            
-            <div class="masonry-wrap">
 
-                <div class="masonry">
-    
-                    <div class="grid-sizer"></div>
-    
+            <section class="listing-intro">
+                <p class="listing-intro__eyebrow">Notes in progress</p>
+                <h1>Reflections</h1>
+                <p>Thoughts on cyber risk, business, technology, and what I’m learning as I grow into the field.</p>
+            </section>
+
+            <div class="masonry-wrap home-posts">
+
+                <div class="masonry home-masonry">
+
+                    <div class="home-post-column">
+                    <article class="masonry__brick entry format-standard animate-this">
+
+                        <div class="entry__thumb">
+                            <a href="stepping-into-riskworld.html" class="entry__thumb-link">
+                                <img src="images/riskworld-banner.jpeg" alt="RISKWORLD 2026 banner in Philadelphia">
+                            </a>
+                        </div>
+
+                        <div class="entry__text">
+                            <div class="entry__header">
+                                <h2 class="entry__title">
+                                    <a href="stepping-into-riskworld.html">Stepping into RISKWORLD 2026</a>
+                                </h2>
+
+                                <div class="entry__meta">
+                                    <span class="entry__meta-cat">
+                                        <a href="reflections.html">Event Reflection</a>
+                                    </span>
+                                    <span class="entry__meta-date">
+                                        <a href="stepping-into-riskworld.html">May 21, 2026</a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="entry__excerpt">
+                                <p>What my first professional conference taught me about risk, relationships, and career growth.</p>
+                            </div>
+                        </div>
+
+                    </article>
+                    </div>
+
+                    <div class="home-post-column">
                     <article class="masonry__brick entry format-standard animate-this text-only-card">
 
                         <div class="entry__text">
@@ -158,7 +195,7 @@
 
                     </article>
 
-                <article class="masonry__brick entry format-standard animate-this text-only-card">
+                    <article class="masonry__brick entry format-standard animate-this text-only-card">
 
                     <div class="entry__text">
                         <div class="entry__header">
@@ -183,8 +220,9 @@
                     </div>
                 </div>
 
-            </article>
-    
+                    </article>
+                    </div>
+
                 </div> <!-- end masonry -->
 
             </div> <!-- end masonry-wrap -->
