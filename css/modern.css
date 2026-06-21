@@ -802,8 +802,8 @@ a {
     }
 
     .home-intro__photo img {
-        aspect-ratio: 5 / 4;
-        object-position: center 35%;
+        aspect-ratio: 4 / 5;
+        object-position: center;
     }
 
     .masonry {
